@@ -262,7 +262,7 @@ $BODY$;
 //   }
 // });
 
-app.get('/', async (req, res) => {
+app.get('/get', async (req, res) => {
 
   let contagem;
   let sensor;
