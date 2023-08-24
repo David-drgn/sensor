@@ -321,7 +321,7 @@ app.get('/', async (req, res) => {
 
 });
 
-app.post('/postSensor', async (req, res) => {
+app.post('/', async (req, res) => {
 
   const { id, epoch, dir } = req.body;
 
