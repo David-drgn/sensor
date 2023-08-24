@@ -260,6 +260,10 @@ $BODY$;
 //   }
 // });
 
+app.get('/getRodando', (req, res) => {
+  res.json("oi")
+});
+
 app.get('/get', async (req, res) => {
 
   let contagem;
