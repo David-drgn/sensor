@@ -259,9 +259,10 @@ $BODY$;
 //     console.log('Contagem delete');
 //   }
 // });
-// app.get('/', (req, res) => {
-//   return res.json("oi")
-// });
+
+app.get('/oi', (req, res) => {
+  return res.json("oi")
+});
 
 app.get('/getRodando', (req, res) => {
   return res.json("Rodando")
