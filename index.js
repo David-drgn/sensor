@@ -259,15 +259,15 @@ $BODY$;
 //     console.log('Contagem delete');
 //   }
 // });
-app.get('/', (req, res) => {
-  return res.json("oi")
-});
+// app.get('/', (req, res) => {
+//   return res.json("oi")
+// });
 
 app.get('/getRodando', (req, res) => {
   return res.json("Rodando")
 });
 
-app.get('/get', async (req, res) => {
+app.get('/', async (req, res) => {
 
   let contagem;
   let sensor;
